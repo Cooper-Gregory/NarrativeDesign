@@ -386,6 +386,8 @@ GameObject:
   - component: {fileID: 64698035}
   - component: {fileID: 64698034}
   - component: {fileID: 64698033}
+  - component: {fileID: 64698059}
+  - component: {fileID: 64698058}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -693,6 +695,7 @@ MonoBehaviour:
   - {fileID: 64698056}
   - {fileID: 64698055}
   - {fileID: 64698054}
+  - {fileID: 64698058}
   suppressAllAutoSelections: 0
 --- !u!114 &64698016
 MonoBehaviour:
@@ -734,7 +737,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 539.7835
+    x: 540.81445
     y: 183.06186
     width: 109.79381
     height: 40
@@ -750,6 +753,7 @@ MonoBehaviour:
   - {fileID: 64698029}
   - {fileID: 64698028}
   - {fileID: 64698027}
+  - {fileID: 64698059}
   suppressAllAutoSelections: 0
 --- !u!114 &64698018
 MonoBehaviour:
@@ -1690,8 +1694,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 415.01703
-    y: 269.4456
+    x: 427.38806
+    y: 270.47653
     width: 84.020615
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1826,6 +1830,48 @@ MonoBehaviour:
   orthoSizeTweenType: 4
   posTweenType: 4
   rotTweenType: 4
+--- !u!114 &64698058
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 64698003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 90
+  indentLevel: 0
+  targetFlowchart: {fileID: 64698006}
+  targetBlock: {fileID: 64698053}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &64698059
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 64698003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 89
+  indentLevel: 0
+  targetFlowchart: {fileID: 64698006}
+  targetBlock: {fileID: 64698053}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!1 &95284499
 GameObject:
   m_ObjectHideFlags: 0
