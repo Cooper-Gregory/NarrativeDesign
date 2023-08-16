@@ -1337,6 +1337,8 @@ GameObject:
   - component: {fileID: 1091466877}
   - component: {fileID: 1091466876}
   - component: {fileID: 1091466875}
+  - component: {fileID: 1091466883}
+  - component: {fileID: 1091466882}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1401,6 +1403,8 @@ MonoBehaviour:
   - {fileID: 1091466877}
   - {fileID: 1091466876}
   - {fileID: 1091466875}
+  - {fileID: 1091466883}
+  - {fileID: 1091466882}
   suppressAllAutoSelections: 0
 --- !u!114 &1091466863
 MonoBehaviour:
@@ -1428,8 +1432,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1091466862}
-  selectedCommands:
-  - {fileID: 1091466876}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -1458,7 +1461,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1091466865
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1487,7 +1490,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1091466866
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1512,7 +1515,7 @@ MonoBehaviour:
   rotTweenType: 4
 --- !u!114 &1091466867
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1530,7 +1533,7 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &1091466868
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1555,7 +1558,7 @@ MonoBehaviour:
   rotTweenType: 4
 --- !u!114 &1091466869
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1580,7 +1583,7 @@ MonoBehaviour:
   rotTweenType: 4
 --- !u!114 &1091466870
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1608,7 +1611,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1091466871
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1637,7 +1640,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1091466872
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1662,7 +1665,7 @@ MonoBehaviour:
   rotTweenType: 4
 --- !u!114 &1091466873
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1690,7 +1693,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1091466874
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1715,7 +1718,7 @@ MonoBehaviour:
   rotTweenType: 4
 --- !u!114 &1091466875
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1742,7 +1745,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1091466876
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1771,7 +1774,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1091466877
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1796,7 +1799,7 @@ MonoBehaviour:
   rotTweenType: 4
 --- !u!114 &1091466878
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1823,7 +1826,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1091466879
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1852,7 +1855,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1091466880
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1877,7 +1880,7 @@ MonoBehaviour:
   rotTweenType: 4
 --- !u!114 &1091466881
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1900,6 +1903,45 @@ MonoBehaviour:
   orthoSizeTweenType: 4
   posTweenType: 4
   rotTweenType: 4
+--- !u!114 &1091466882
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091466860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 20
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Scene4
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &1091466883
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091466860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 19
+  indentLevel: 0
+  duration: 2
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  fadeTweenType: 4
 --- !u!1 &1211514999
 GameObject:
   m_ObjectHideFlags: 0
