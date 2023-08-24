@@ -478,8 +478,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 64698053}
+  selectedCommands:
+  - {fileID: 64698041}
   variables: []
   description: 
   stepPause: 0
@@ -547,10 +549,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: '(Laughs jokingly)
-
-    Good riddance to those scumbag pigs, walking
-    around acting like they own the place. This is our town baby!'
+  storyText: Good riddance to those scumbag pigs, walking around acting like they
+    own the place. This is our town baby!
   description: 
   character: {fileID: 520356669}
   portrait: {fileID: 0}
@@ -577,9 +577,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: '(Full of bravado)
-
-    Colin. Well done lad.'
+  storyText: Colin. Well done lad.
   description: 
   character: {fileID: 520356669}
   portrait: {fileID: 0}
@@ -953,9 +951,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: '(Softly)
-
-    No.'
+  storyText: No.
   description: 
   character: {fileID: 368855533}
   portrait: {fileID: 0}
@@ -1430,10 +1426,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 78
   indentLevel: 0
-  storyText: '(Yelling)
-
-    I''m done! I have had enough of the lies and the corruption
-    and I''m never coming back.'
+  storyText: I'm done! I have had enough of the lies and the corruption and I'm never
+    coming back!
   description: 
   character: {fileID: 368855533}
   portrait: {fileID: 0}
@@ -1641,9 +1635,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 70
   indentLevel: 0
-  storyText: '(Quietly)
-
-    Your problem.'
+  storyText: Your problem.
   description: 
   character: {fileID: 368855533}
   portrait: {fileID: 0}

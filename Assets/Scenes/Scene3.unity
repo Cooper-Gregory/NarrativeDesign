@@ -1597,8 +1597,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1091466862}
+  selectedCommands:
+  - {fileID: 1091466876}
   variables: []
   description: 
   stepPause: 0
@@ -1639,9 +1641,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  storyText: '(Tired)
-
-    Hey Theo, I grabbed dinner, but we are in no rush...'
+  storyText: Hey Theo, I grabbed dinner, but we are in no rush...
   description: 
   character: {fileID: 1062839078}
   portrait: {fileID: 0}
@@ -1789,9 +1789,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 10
   indentLevel: 0
-  storyText: '(Worried)
-
-    Theo!'
+  storyText: Theo!
   description: 
   character: {fileID: 1062839078}
   portrait: {fileID: 0}
@@ -1923,9 +1921,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 17
   indentLevel: 0
-  storyText: '(Screaming)
-
-    No.'
+  storyText: No!!
   description: 
   character: {fileID: 1062839078}
   portrait: {fileID: 0}
@@ -2004,9 +2000,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
-  storyText: '(Softly and in disbelief)
-
-    No.'
+  storyText: No.
   description: 
   character: {fileID: 1062839078}
   portrait: {fileID: 0}

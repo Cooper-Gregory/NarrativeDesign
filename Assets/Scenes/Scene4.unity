@@ -398,10 +398,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 82640516}
-  selectedCommands:
-  - {fileID: 82640544}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -442,9 +440,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: '(Out of breath)
-
-    They have Theo. They have Theo.'
+  storyText: They have Theo. They have Theo.
   description: 
   character: {fileID: 1898009679}
   portrait: {fileID: 0}
@@ -548,9 +544,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: '(Hurried and tired)
-
-    Ellie!'
+  storyText: Ellie!
   description: 
   character: {fileID: 1898009679}
   portrait: {fileID: 0}
@@ -681,9 +675,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
-  storyText: '(Voice raised)
-
-    Colin how?'
+  storyText: Colin how!?
   description: 
   character: {fileID: 1274156250}
   portrait: {fileID: 0}
@@ -760,9 +752,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 10
   indentLevel: 0
-  storyText: '(Stunned)
-
-    How?'
+  storyText: How?
   description: 
   character: {fileID: 1274156250}
   portrait: {fileID: 0}
@@ -991,9 +981,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 21
   indentLevel: 0
-  storyText: '(In question)
-
-    We can''t just walk in there!'
+  storyText: We can't just walk in there!
   description: 
   character: {fileID: 1898009679}
   portrait: {fileID: 0}
@@ -1033,7 +1021,7 @@ MonoBehaviour:
   rotTweenType: 4
 --- !u!114 &82640544
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}

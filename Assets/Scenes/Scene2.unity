@@ -1403,10 +1403,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
-  storyText: '(Emotionally)
-
-    Yeah well, you should have thought about all of
-    this before you levelled an entire block!'
+  storyText: Yeah well, you should have thought about all of this before you levelled
+    an entire block!
   description: 
   character: {fileID: 1559551112}
   portrait: {fileID: 0}
@@ -1486,10 +1484,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 11
   indentLevel: 0
-  storyText: '(Matching tone)
-
-    Yes, there is Ellie, just... come back, come back
-    to the house. '
+  storyText: 'Yes, there is Ellie, just... come back, come back to the house. '
   description: 
   character: {fileID: 1026379792}
   portrait: {fileID: 0}
@@ -1541,9 +1536,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  storyText: '(Sternly)
-
-    There''s nothing to talk about Colin.'
+  storyText: There's nothing to talk about Colin!
   description: 
   character: {fileID: 1559551112}
   portrait: {fileID: 0}
@@ -1753,10 +1746,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 16
   indentLevel: 0
-  storyText: '(Apologetically)
-
-    I know. I know. I know, and I thought I was doing
-    the right thing, and I now know I wasn''t.'
+  storyText: I know. I know, and I thought I was doing the right thing, and I now
+    know I wasn't.
   description: 
   character: {fileID: 1026379792}
   portrait: {fileID: 0}
@@ -1833,9 +1824,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 30
   indentLevel: 0
-  storyText: '(In lost remorse)
-
-    Fuck.'
+  storyText: Fuck.
   description: 
   character: {fileID: 1026379792}
   portrait: {fileID: 0}
