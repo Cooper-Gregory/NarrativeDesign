@@ -481,7 +481,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 64698053}
   selectedCommands:
-  - {fileID: 64698041}
+  - {fileID: 64698034}
   variables: []
   description: 
   stepPause: 0
@@ -896,8 +896,8 @@ MonoBehaviour:
   itemId: 10
   indentLevel: 0
   storyText: Raz, I don't think you get it. The markets are in ruins! Mothers and
-    fathers, brothers, sisters are dead because of this stupid stunt we pulled, and
-    you act like you don't even care!
+    fathers, brothers and sisters are dead because of this stupid stunt we pulled,
+    and you act like you don't even care!
   description: 
   character: {fileID: 368855533}
   portrait: {fileID: 0}
@@ -1107,8 +1107,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 38
   indentLevel: 0
-  storyText: "Raz what the fuck is wrong with you. This isn\u2019t like you. I didn\u2019t
-    think you were this stupid and shallow!"
+  storyText: "Raz what the fuck is wrong with you? This isn\u2019t like you. I didn\u2019t
+    think you were this shallow!"
   description: 
   character: {fileID: 368855533}
   portrait: {fileID: 0}

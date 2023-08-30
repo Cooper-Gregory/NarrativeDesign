@@ -1600,7 +1600,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1091466862}
   selectedCommands:
-  - {fileID: 1091466876}
+  - {fileID: 1091466875}
   variables: []
   description: 
   stepPause: 0
@@ -1973,7 +1973,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 0
-  storyText: Colin enters the kitchen and sees the insignia used by Raz and the business.
+  storyText: Colin enters the kitchen and sees the insignia used by Raz on the table.
   description: 
   character: {fileID: 795529893}
   portrait: {fileID: 0}

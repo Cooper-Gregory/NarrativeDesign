@@ -1334,10 +1334,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 962139593}
-  selectedCommands:
-  - {fileID: 962139613}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -1615,7 +1613,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  storyText: Ellie turns to walk away but Colin grabs her hand
+  storyText: Ellie turns to walk away but Colin grabs her hand.
   description: 
   character: {fileID: 1315112729}
   portrait: {fileID: 0}
